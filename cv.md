@@ -1,22 +1,22 @@
 # **Shahzod Kakhkhorov**
 
 ## Contacts
-### E-mail: shahzod1505@gmail.com
-### Telegram: @Sirius077
-### Phone: +998(90)348-69-33
-### Github: [ShahzodK](https://github.com/ShahzodK)
+#### E-mail: shahzod1505@gmail.com
+#### Telegram: @Sirius077
+#### Phone: +998(90)348-69-33
+#### Github: [ShahzodK](https://github.com/ShahzodK)
 
 
 ## About Me
  I am interested in Front-End. I am good listener. I want to learn how to create complex web applications.  
 
- ## Skills
+## Skills
  * HTML
  * CSS/Less
  * JavaScript
  * Bootstrap 
 
- ## Code
+## Code
  ```
  function nthSmallest(arr, pos){
     arr = arr.sort((a, b) => a - b);
