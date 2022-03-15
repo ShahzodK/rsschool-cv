@@ -1,0 +1,118 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5352d4;
+    width: 1000px;
+    margin: auto;
+}
+
+
+header {
+    background: #5655da;
+    color: #fff;
+    height: 1200px;
+    padding-top: 200px;
+}
+
+header a {
+    color: #fff;
+}
+
+section {
+    background: #fff;
+    padding: 60px 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.section-header {
+    color: #f74470;
+    margin-bottom: 40px;
+}
+
+.name {
+    font-weight: 700;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.anchors {
+    padding-left: 46px;
+
+    a {
+        padding-bottom: 10px;
+
+        &:hover {
+            color: initial;
+        }
+    }
+}
+
+.header-content {
+    height: 100%;
+}
+
+.about {
+    p {
+        padding-bottom: 30px;
+    }
+}
+
+.portfolio-item {
+    position: relative;
+
+    h2 {
+        display: none;
+    }
+
+    span {
+        display: none;
+    }
+
+    img {
+        width: 340px;
+    }
+    a {
+        z-index: 1000;
+        height: 100%;
+        width: 100%;
+    }
+
+    .overlay {
+        background: rgba(232, 69, 69, 0.9);
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    &:hover {
+        h2 {
+            font-size: 15px;
+            display: block;
+            position: absolute;
+            right: 35%;
+            top: 50%;
+            color: #fff;
+        }
+        span {
+            display: initial;
+        }
+
+        .overlay {
+            opacity: 1;
+            cursor: pointer;
+
+        }
+
+    }
+} 
